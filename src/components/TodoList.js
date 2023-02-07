@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import CreateTask from '../modals/CreateTask'
 import Card from './Card';
+import Login from './Login';
 
 const TodoList = () => {
     const [modal, setModal] = useState(false);
@@ -44,6 +45,10 @@ const TodoList = () => {
         setModal(false)
     }
 
+    const handleLogin = () => {
+        <Login />
+    }
+
 
     return (
         <>
@@ -57,9 +62,8 @@ const TodoList = () => {
 
                 </ul>
                 <div className="right-container">
-                    <input type="text" class="search-box" placeholder="search"></input>
-                    <button class="sub-button">Subscribe</button>
-                    <a href="#" class="login-link">login</a>
+                    <input type="text" className="search-box" placeholder="search"></input>
+                    <button className="sub-button" onClick={handleLogin}>Login</button>
                 </div>
             </nav>
             <div className = "header text-center">
