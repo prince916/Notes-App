@@ -58,10 +58,12 @@ const TodoList = () => {
                     <li className="nav-items"><a href="#">Premium</a></li>
 
                 </ul>
-                <div className="right-container">
+                <div className='right-container'>
                     <input type="text" className="search-box" placeholder="search"></input>
                     <button className="sub-button">Login</button>
+                
                 </div>
+                
             </nav>
             <div className = "header text-center">
                 <h3>Notes App</h3>
