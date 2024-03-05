@@ -50,7 +50,7 @@ const TodoList = () => {
     return (
         <>
             <nav className="navbar">
-                             
+                <h1>...</h1>  
             </nav>
             <div className = "header text-center">
                 <h3>Notes App</h3>
