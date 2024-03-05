@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import CreateTask from '../modals/CreateTask'
+import CreateTask from './modals/CreateTask'
 import Card from './Card';
 
 
@@ -50,20 +50,7 @@ const TodoList = () => {
     return (
         <>
             <nav className="navbar">
-                <img src="https://cdn-icons-png.flaticon.com/128/888/888840.png" className="brand-logo" alt=""></img>
-                <ul className="nav-links">
-                    <li className="nav-items"><a href="#">Home</a></li>
-                    <li className="nav-items"><a href="#">Contact</a></li>
-                    <li className="nav-items"><a href="#">Favourite</a></li>
-                    <li className="nav-items"><a href="#">Premium</a></li>
-
-                </ul>
-                <div className='right-container'>
-                    <input type="text" className="search-box" placeholder="search"></input>
-                    <button className="sub-button">Login</button>
-                
-                </div>
-                
+                             
             </nav>
             <div className = "header text-center">
                 <h3>Notes App</h3>

@@ -43,53 +43,18 @@ body{
     font-size: 18px;
 }
 
-.nav-items a{
+.nav-items h1{
     text-decoration: none;
     margin-left: 20px;
     text-transform: capitalize;
     color: #000000;
     opacity: 0.9;
+    float: inline-end;
 }
 
 .right-container{
     display: block;
     margin-left: auto;
-}
-
-.search-box{
-    border: none;
-    border-bottom: 1px solid #aaa;
-    background: transparent;
-    outline: none;
-    height: 30px;
-    width: 250px;
-    color: #ffff;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 500;
-    transition: .5s;
-    
-}
-
-.search-box:focus{
-    width: 400px;
-    border-color: #1f80e0;
-}
-
-.sub-button{
-    background-color: #1f80e0;
-    height: 30px;
-    padding: 0 20px;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
-    margin: 0 10px;
-    
-    
 }
 
 .card-container{
