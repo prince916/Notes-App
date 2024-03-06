@@ -1,4 +1,5 @@
 This Notes app contains React.js framework
+Here you can create,edit and delete notes.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
