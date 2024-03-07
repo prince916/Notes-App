@@ -1,11 +1,14 @@
 body{
     overflow: scroll;
+    height: auto;
+    width: 100%;
+    object-fit:cover;
 }
 
 .header{
-    height: 200px;
+    height:250px;
     width: 100%;
-    background-color : #e9dfdf;
+    background-color : #f7a2a2;
     padding-top: 50px;
 }
 
@@ -18,61 +21,28 @@ body{
     padding-top: 15px;
 }
 
-.brand-logo{
-    height: 60px;
-    margin-left: 20px;
-}
-
-.navbar{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 0 4%;
-    background: #e9dfdf;
-    z-index: 9;
-    display: flex;
-    align-items: center;
-}
-
-.nav-links{
-    margin-top: 10px;
-    display: flex;
-    list-style: none;
-    font-size: 18px;
-}
-
-.nav-items h1{
-    text-decoration: none;
-    margin-left: 20px;
-    text-transform: capitalize;
-    color: #000000;
-    opacity: 0.9;
-    float: inline-end;
-}
-
 .right-container{
     display: block;
     margin-left: auto;
 }
 
 .card-container{
-    height: 500px;
+    height: 200px;
     width: 300px;
     box-shadow: 0px 3px 50px #d3c1c1;
-    
 }
   
 .card-wrapper{
-    width: 500px; 
-    height: 300px; 
-    box-shadow: 0px 3px 50px #A5A5A5;
+    width: 48%; 
+    height: 450px; 
+    box-shadow: 0px 3px 20px #b5b5b5;
     display: flex;
+    color: #000000;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex-direction: column;
     margin: 10px;
     overflow: scroll;
-    
 }
 
   
@@ -84,10 +54,11 @@ body{
 .task-holder{
     width: 100%;
     height: 98%;
-    padding: 10px 10px;
+    padding: 10px 20px;
     display : flex;
     flex-direction: column;
     position: relative;
+    background-color: rgb(236, 236, 254);
 }
   
 .card-header{
@@ -97,22 +68,35 @@ body{
     height: 40px;
     padding: 1px 1px !important;
     text-align: center;
+    font-size: large;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
   
 .task-container{
-    height: 600px;
+    height: auto;
     width: 100%;
+    gap: 5px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #f6fbff;
-    padding : 40px 100px;
+    padding : 50px 100px;
     overflow: hidden;
+    object-fit: cover;
+    background-color: rgb(255, 255, 255);
 }
 
 .far{
     margin-right: 15px;
-    
 }
+
+.fixbuttons{
+    padding: 15px;    
+    display: flex;
+    align-items: center;
+
+}
+
 
 
 
