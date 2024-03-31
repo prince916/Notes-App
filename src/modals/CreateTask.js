@@ -14,8 +14,6 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
         }else{
             setDescription(value)
         }
-
-
     }
 
     const handleSave = (e) => {
@@ -30,8 +28,7 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
     return (
         <Modal isOpen={modal} toggle={toggle}>
             <ModalHeader toggle={toggle}>Create Task</ModalHeader>
-            <ModalBody>
-            
+            <ModalBody>            
                     <div className = "form-group">
                         <label>Task Name</label>
                         <input type="text" className = "form-control" value = {taskName} onChange = {handleChange} name = "taskName"/>
